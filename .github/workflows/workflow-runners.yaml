@@ -15,7 +15,6 @@ jobs:
     steps:
       - name: Show OS version
         shell: bash
-
         run: |
           echo "This job is running on Windows Runner." 
           echo "Runner OS: ${{ runner.os }}"
